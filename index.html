@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirigiendo a Canva...</title>
+    
+    <!-- Meta Refresh Redirect (HTTP equivalent for client-side) -->
+    <meta http-equiv="refresh" content="0;url=https://www.canva.com/design/DAG9SpMdd3A/aZltQ-bcoIlYJr793TNv9A/view?utm_content=DAG9SpMdd3A&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7bbfb6afe0">
+
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            color: #1f2937;
+            text-align: center;
+        }
+        
+        .container {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            max-width: 90%;
+            width: 400px;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #7c3aed; /* Canva-ish purple */
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1.5rem auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        h1 {
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            color: #6b7280;
+            margin-bottom: 1.5rem;
+            font-size: 0.95rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #7c3aed;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: background-color 0.2s;
+        }
+
+        .btn:hover {
+            background-color: #6d28d9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="spinner"></div>
+        <h1>Te estamos redirigiendo</h1>
+        <p>Estás siendo redirigido a tu diseño en Canva.</p>
+        
+        <a href="https://www.canva.com/design/DAG9SpMdd3A/aZltQ-bcoIlYJr793TNv9A/view?utm_content=DAG9SpMdd3A&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7bbfb6afe0" class="btn">
+            Haz clic aquí si no funciona
+        </a>
+    </div>
+
+    <script>
+        // JavaScript Redirect
+        window.onload = function() {
+            window.location.href = "https://www.canva.com/design/DAG9SpMdd3A/aZltQ-bcoIlYJr793TNv9A/view?utm_content=DAG9SpMdd3A&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7bbfb6afe0";
+        };
+    </script>
+</body>
+</html>
